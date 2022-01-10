@@ -9,7 +9,7 @@ const MyButton = styled.button`
   ${props => props.increment && css `
       background: green;
       color: #fff;
-      margin:50px;
+      // margin:50px;
      `
   }
   ${props => props.reset && 
