@@ -13,8 +13,11 @@ const About = () => {
         setInterval (()=> {
             setCount(prev => prev+1);
         },1000);
+      
     }, [])
-
+    if(count >=20) {
+        setCount(0);
+    }
     return (
         <Layout>
 
